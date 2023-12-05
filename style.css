@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.weather-content {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    max-width: 501px;
+    text-align: center;
+    padding: 20px 20px 50px; 
+    margin: 10% auto 0;
+    background-color: #546785;
+    border-radius: 9px;
+}
+
+.weather-content h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.weather-content p {
+    color: #cfcfd9;
+}
+
+
+.result {
+    margin-bottom: 8px;
+}
+
+.result p {
+    margin: 5px 0;
+}
+
+.result h2 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+.select-box {
+    margin-top: 20px;
+}
+
+.select-box select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #546785;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.select-box select:hover {
+    background-color: #cfcfd9;
+}
+
+.select-box select:focus {
+    outline: none;
+    background-color: #cfcfd9;
+} 
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #546785;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #cfcfd9;
+    color: #546785;
+}
